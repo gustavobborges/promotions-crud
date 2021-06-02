@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn start
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/OpenJDK/openjdk-11.0.11_9/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/gusta/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gusta/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gusta/AppData/Roaming/npm:/mnt/c/Users/gusta/AppData/Local/Yarn/bin:/mnt/c/Android/Sdk/emulator:/mnt/c/Android/Sdk/tools:/mnt/c/Android/Sdk/tools/bin:/mnt/c/Android/Sdk/platform-tools:/mnt/c/Users/gusta/AppData/Local/Yarn/bin:/snap/bin:/home/gustavo/repositorios/development/bin:/home/gustavo/Android/Sdk/emulator:/home/gustavo/Android/Sdk/tools:/home/gustavo/Android/Sdk/tools/bin:/home/gustavo/Android/Sdk/platform-tools:/home/gustavo/android-studio/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/gustavo/repositorios/te/1205/backend/package.json: Unexpected string in JSON at position 166
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "json-server --port 304 --watch db.json"  
+  },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
